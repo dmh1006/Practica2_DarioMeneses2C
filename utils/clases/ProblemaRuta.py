@@ -3,7 +3,7 @@ from utils.clases.NodoBusqueda import NodoBusqueda
 
 class ProblemaRuta:
     """
-    Problema de búsqueda de ruta en el hospital 
+    Problema de búsqueda de ruta en el hospital siguiendo el estilo visto en clase.
 
     - Estado: (fila, columna)
     - Nodo inicial: NodoBusqueda(inicio, None, g=0, h=heurística(inicio))
@@ -56,7 +56,7 @@ class ProblemaRuta:
         return abs(f - fo) + abs(c - co)
 
     # -----------------------------
-    # API (nodos)
+    # API estilo clase (nodos)
     # -----------------------------
     def es_objetivo(self, nodo):
         return nodo.getEstado() == self.objetivo

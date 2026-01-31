@@ -1,6 +1,6 @@
 class NodoBusqueda:
     """
-    Nodo de búsqueda 
+    Nodo de búsqueda siguiendo el estilo visto en clase.
     Guarda:
       - estado: (fila, col)
       - padre: referencia a otro NodoBusqueda
